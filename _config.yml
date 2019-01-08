@@ -95,16 +95,16 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "balakrishnanc"
+  github           : # "balakrishnanc"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-5582-1223"
+  orcid            : # "https://orcid.org/0000-0002-5582-1223"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : #
   steam            :
   tumblr           :
   twitter          : "balakc"
