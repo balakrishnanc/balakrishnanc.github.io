@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/balac
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://balakrishnanc.github.io
+  * I am balac (https://keybase.io/balac) on keybase.
+  * I have a public key ASDYhiJfRsxGSQ7nASBe1gLO1HpFYELuosQKW4blfoS4vwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d886225f46cc46490ee701205ed602ced47a456042eea2c40a5b86e57e84b8bf0a",
+      "host": "keybase.io",
+      "kid": "0120d886225f46cc46490ee701205ed602ced47a456042eea2c40a5b86e57e84b8bf0a",
+      "uid": "3e0c74a228c0eaeaee512c4ae04b0219",
+      "username": "balac"
+    },
+    "merkle_root": {
+      "ctime": 1549824601,
+      "hash": "bbd702d78fdaeac64764f79d6e4e149e38c216241ee0a0b48dffb3266012d1fd9e2c49be00d4690ac22f2271a7018b7310a8aabd8ca8eda86acf58ef2e898c54",
+      "hash_meta": "09a594330742a2b4f86e95950ef2eccabee9ee9a4e1fd0f469d6c1f6a142c563",
+      "seqno": 4737698
+    },
+    "service": {
+      "entropy": "qqpEr8MekO4Gq6IOm3JXVcCE",
+      "hostname": "balakrishnanc.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1549824642,
+  "expire_in": 504576000,
+  "prev": "7fe4e5071b2de3e4d2285cf1f8dd585d1f3ad2027967302c97b154dad8079c7b",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2IYiX0bMRkkO5wEgXtYCztR6RWBC7qLECluG5X6EuL8Kp3BheWxvYWTESpcCEMQgf+TlBxst4+TSKFzx+N1YXR860gJ5ZzAsl7FU2tgHnHvEIKpLCg0tVphxhKQDb65IsboD+zZPLRMAKnTI9edZC93lAgHCo3NpZ8RA4zJ0hcgDDGh6hy7kWWQgOiWtVchTwodrEeQC79S0u8yD9qjnd3fgRzXZuaFQVEWdZzolBtFirl+M1qohM2ONAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFxh2LDVc50aXftDbDkZlK5pt4GT19gSYIps0TrnEWCxo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/balac
+
+==================================================================
