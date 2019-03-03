@@ -266,6 +266,7 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: left;
+    font-size: 0.9em;
 }
 
 .pubs li .title {
@@ -289,6 +290,17 @@ a:active {
 
 .pubs li .url {
     font-size: 1.25em;
+}
+
+.pubs li .norm {
+    color: var(--body-text);
+    font-size: 0.9em;
+}
+
+.pubs li .awards {
+    color: var(--sec-accent);
+    font-weight: 700;
+    font-size: 0.9em;
 }
 
 .home {
