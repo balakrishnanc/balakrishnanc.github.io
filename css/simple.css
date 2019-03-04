@@ -254,6 +254,10 @@ a:active {
     font-size: 1em;
 }
 
+.pubs li .typeinfo {
+    color: var(--ter-accent);
+    font-size: 0.8em;
+}
 
 .pubs li .authors {
     font-weight: 400;
