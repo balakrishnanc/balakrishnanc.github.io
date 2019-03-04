@@ -171,31 +171,13 @@ a:active {
     flex-grow: 1;
 }
 
-.menu, .links {
+.links {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: Montserrat, Ubuntu, sans-serif;
+    font-family: var(--sec-font), Ubuntu, sans-serif;
     font-weight: 700;
     background-color: var(--background);
-}
-
-.menu {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 15px;
-    z-index: 100;
-}
-
-.menu .item {
-    flex-shrink: 1;
-    margin: 1em 0 0 0;
-    padding: 0 0.8em;
-}
-
-.menu > .item:not(:first-of-type) {
-    border-left: 1px solid var(--pri-accent);
 }
 
 .links a {
