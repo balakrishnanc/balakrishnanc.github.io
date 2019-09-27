@@ -6,9 +6,9 @@
 :root {
     --background: #ffffff;
     --body-text: #606060;
-    --links: #3AAA57;
-    --links-hover: #2B7F41;
-    --pri-accent: #3A55AA;
+    --links: #2B7F41;
+    --links-hover: #3AAA57;
+    --pri-accent: #2B7F41;
     --sec-accent: #AA3A8D;
     --ter-accent: #AA8F3A;
     --img-opacity: 1;
@@ -192,7 +192,8 @@ a:active {
 
 .pointer {
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: .5em;
+    font-size: 2em;
 }
 
 .pubs {
