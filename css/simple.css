@@ -181,12 +181,12 @@ a:active {
 }
 
 .links a {
-    padding: 0 1em;
+    padding: 0 0.5em;
 }
 
 @media all and (max-width:768px) {
     .links a {
-        padding: 0 1em 0 0;
+        padding: 0 0.5em;
     }
 }
 
