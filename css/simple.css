@@ -30,6 +30,7 @@
 html {
     background-color: var(--background);
     font-family: var(--pri-font), Georgia, serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -242,7 +243,7 @@ a:active {
     z-index: 1;
 }
 
-.pubs li span {
+.pubs li > span {
     display: flex;
     flex-direction: row;
     justify-content: left;
