@@ -7,7 +7,7 @@
     --background: #ffffff;
     --body-text: #606060;
     --links: #2B7F41;
-    --links-hover: #3AAA57;
+    --links-hover: #325CCD;
     --pri-accent: #2B7F41;
     --sec-accent: #AA3A8D;
     --ter-accent: #AA8F3A;
@@ -268,6 +268,15 @@ a:active {
     color: var(--pri-accent);
     font-weight: 700;
     font-size: 1em;
+}
+
+.title a {
+    border-bottom: 1px solid var(--background);
+}
+
+.title a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid var(--links-hover);
 }
 
 .pubs li .typeinfo {
