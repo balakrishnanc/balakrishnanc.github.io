@@ -11,11 +11,12 @@
     --pri-accent: #2B7F41;
     --sec-accent: #AA3A8D;
     --ter-accent: #AA8F3A;
+    --gray: #707070;
     --img-opacity: 1;
     --light-button: inline;
     --dark-button: none;
-    --pri-font: Merriweather;
-    --sec-font: Montserrat;
+    --pri-font: 'Montserrat', sans-serif;
+    --sec-font: 'Merriweather', serif;
     --timeline-top-pos: 0.5em;
     --timeline-line-off: 0.25em;
     --timeline-bubble-dim: 0.5em;
@@ -31,12 +32,12 @@
 
 html {
     background-color: var(--background);
-    font-family: var(--pri-font), Georgia, serif;
+    font-family: var(--pri-font);
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: var(--pri-font), Georgia, serif;
+    font-family: var(--pri-font);
     color: var(--body-text);
     text-shadow: none;
     /* Default configuration. */
@@ -74,7 +75,7 @@ img {
 h1,
 h2,
 h3 {
-    font-family: var(--sec-font), Helvetica, Arial, sans-serif;
+    font-family: var(--sec-font);
     line-height: 1.2em;
     color: var(--ter-accent);
     margin: 2em 1em 0.25em 0.2em;
@@ -186,7 +187,6 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: var(--sec-font), Ubuntu, sans-serif;
     font-weight: 700;
     background-color: var(--background);
 }
@@ -285,6 +285,8 @@ a:active {
 }
 
 .pubs li .authors {
+    color: var(--gray);
+    font-size: 0.85em;
     font-weight: 400;
 }
 
