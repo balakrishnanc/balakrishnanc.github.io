@@ -15,8 +15,8 @@
     --img-opacity: 1;
     --light-button: inline;
     --dark-button: none;
-    --pri-font: 'Montserrat', sans-serif;
-    --sec-font: 'Merriweather', serif;
+    --pri-font: 'Proza Libre', sans-serif;
+    --sec-font: 'Proza Libre', serif;
     --timeline-top-pos: 0.5em;
     --timeline-line-off: 0.25em;
     --timeline-bubble-dim: 0.5em;
@@ -41,8 +41,8 @@ body {
     color: var(--body-text);
     text-shadow: none;
     /* Default configuration. */
-    font-size: 16px;
-    line-height: 1.8em;
+    font-size: 100%;
+    line-height: 1.6em;
     letter-spacing: .4px;
     margin: 0;
 }
@@ -50,14 +50,16 @@ body {
 @media all and (min-width:2200px) {
     /* Increase font size. */
     body {
-        font-size: 18px;
+        font-size: 150%;
         line-height: 1.8em;
+        letter-spacing: .4px;
     }
 }
 
 @media all and (max-width:768px) {
     /* For small screens, decrease letter spacing. */
     body {
+        line-height: 1.6em;
         letter-spacing: .3px;
     }
 }
@@ -76,7 +78,9 @@ h1,
 h2,
 h3 {
     font-family: var(--sec-font);
-    line-height: 1.2em;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.8em;
     color: var(--ter-accent);
     margin: 2em 1em 0.25em 0.2em;
 }
@@ -122,13 +126,13 @@ a:active {
 
 @media all and (max-width:1380px) {
     .content {
-        width: 80vw;
+        width: 70vw;
     }
 }
 
 @media all and (max-width:768px) {
     .content {
-        width: 95vw;
+        width: 90vw;
     }
 }
 
