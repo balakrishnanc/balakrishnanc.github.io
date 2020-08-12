@@ -3,6 +3,8 @@
  * https://vickylai.com/
  */
 
+/* Light theme. */
+/*
 :root {
     --background: #ffffff;
     --body-text: #606060;
@@ -12,6 +14,29 @@
     --sec-accent: #AA3A8D;
     --ter-accent: #AA8F3A;
     --gray: #707070;
+    --img-opacity: 1;
+    --light-button: inline;
+    --dark-button: none;
+    --pri-font: 'Proza Libre', sans-serif;
+    --sec-font: 'Proza Libre', serif;
+    --timeline-top-pos: 0.5em;
+    --timeline-line-off: 0.25em;
+    --timeline-bubble-dim: 0.5em;
+    --timeline-lmargin-fat: 4em;
+    --timeline-lmargin-thin: 1em;
+}
+*/
+
+/* Dark theme. */
+:root {
+    --background: #242731;
+    --body-text: #CECECE;
+    --links: #37A254;
+    --links-hover: #436BFF;
+    --pri-accent: #37A254;
+    --sec-accent: #BA4099;
+    --ter-accent: #C2A64C;
+    --gray: #909090;
     --img-opacity: 1;
     --light-button: inline;
     --dark-button: none;
@@ -47,19 +72,10 @@ body {
     margin: 0;
 }
 
-@media all and (min-width:2200px) {
-    /* Increase font size. */
-    body {
-        font-size: 150%;
-        line-height: 1.8em;
-        letter-spacing: .4px;
-    }
-}
-
 @media all and (max-width:768px) {
     /* For small screens, decrease letter spacing. */
     body {
-        line-height: 1.6em;
+        line-height: 1.5em;
         letter-spacing: .3px;
     }
 }
@@ -112,25 +128,13 @@ a:active {
     margin: 0 auto;
 }
 
-@media all and (min-width:2201px) {
+@media all and (min-width:891px) {
     .content {
-        width: 50vw;
+        width: 800px;
     }
 }
 
-@media all and (max-width:2200px) {
-    .content {
-        width: 60vw;
-    }
-}
-
-@media all and (max-width:1380px) {
-    .content {
-        width: 70vw;
-    }
-}
-
-@media all and (max-width:768px) {
+@media all and (max-width:890px) {
     .content {
         width: 90vw;
     }
@@ -300,6 +304,7 @@ a:active {
 
 .pubs li .year {
     font-weight: 700;
+    color: var(--ter-accent);
 }
 
 .pubs li .url {
