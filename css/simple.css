@@ -9,7 +9,7 @@
     --background: #ffffff;
     --body-text: #606060;
     --links: #2B7F41;
-    --links-hover: #325CCD;
+    --links-hover: #3964FF;
     --pri-accent: #2B7F41;
     --sec-accent: #AA3A8D;
     --ter-accent: #AA8F3A;
@@ -30,9 +30,10 @@
 /* Dark theme. */
 :root {
     --background: #242731;
+    --shadow-accent: #14161b;
     --body-text: #CECECE;
     --links: #37A254;
-    --links-hover: #436BFF;
+    --links-hover: #3964FF;
     --pri-accent: #37A254;
     --sec-accent: #BA4099;
     --ter-accent: #C2A64C;
@@ -45,7 +46,7 @@
     --timeline-top-pos: 0.5em;
     --timeline-line-off: 0.25em;
     --timeline-bubble-dim: 0.5em;
-    --timeline-lmargin-fat: 4em;
+    --timeline-lmargin-fat: 3em;
     --timeline-lmargin-thin: 1em;
 }
 
@@ -66,17 +67,44 @@ body {
     color: var(--body-text);
     text-shadow: none;
     /* Default configuration. */
-    font-size: 100%;
-    line-height: 1.6em;
-    letter-spacing: .4px;
+    font-size: 70%;
+    line-height: 1.5em;
     margin: 0;
 }
 
-@media all and (max-width:768px) {
-    /* For small screens, decrease letter spacing. */
+@media all and (min-width: 400px) {
     body {
-        line-height: 1.5em;
-        letter-spacing: .3px;
+        font-size: 75%;
+    }
+}
+
+@media (min-width: 700px) {
+    body {
+        font-size: 90%;
+    }
+}
+
+@media (min-width: 850px) {
+    body {
+        font-size: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    body {
+        font-size: 110%;
+        line-height: 1.6em;
+    }
+}
+@media (min-width: 1100px) {
+    body {
+        font-size: 115%;
+        line-height: 1.6em;
+    }
+}
+@media (min-width: 1450px) {
+    body {
+        font-size: 125%;
+        line-height: 1.6em;
     }
 }
 
@@ -87,7 +115,7 @@ img {
 .headshot {
     border-radius: 50%;
     max-width: 200px;
-    box-shadow: 1px 2px 5px #202020;
+    box-shadow: 1px 2px 5px var(--shadow-accent);
 }
 
 h1,
@@ -115,7 +143,7 @@ a {
     transition: ease .3s;
 }
 
-a:hover {
+a:focus, a:hover {
     color: var(--links-hover);
     font-style: none;
 }
@@ -278,13 +306,13 @@ a:active {
     font-size: 1em;
 }
 
-.title a {
+/* .title a {
     border-bottom: 1px solid var(--background);
-}
+} */
 
 .title a:hover {
     cursor: pointer;
-    border-bottom: 1px solid var(--links-hover);
+    /* border-bottom: 1px solid var(--links-hover); */
 }
 
 .pubs li .typeinfo {
