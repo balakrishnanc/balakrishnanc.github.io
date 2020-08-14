@@ -331,7 +331,8 @@ a:active {
 }
 
 .pubs li .year {
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 0.8em;
     color: var(--ter-accent);
 }
 
