@@ -42,7 +42,7 @@
     --img-opacity: 1;
     --light-button: inline;
     --dark-button: none;
-    --pri-font: 'Proza Libre', sans-serif;
+    --pri-font: 'Proza Libre', serif;
     --sec-font: 'Proza Libre', serif;
     --timeline-top-pos: 0.5em;
     --timeline-line-off: 0.25em;
@@ -61,6 +61,9 @@ html {
     background-color: var(--background);
     font-family: var(--pri-font);
     scroll-behavior: smooth;
+    font-kerning: auto;
+    -webkit-font-kerning: auto;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
