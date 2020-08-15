@@ -359,7 +359,7 @@ a:active {
 }
 
 .pubs li .addtl span:not(:first-child) {
-    border-left: 0.5px dashed var(--pri-accent);
+    border-left: 0.5px dashed var(--ter-accent);
     margin-left: 0.75em;
     padding-left: 0.75em;
 }
