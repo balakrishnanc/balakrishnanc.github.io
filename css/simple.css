@@ -18,12 +18,12 @@
     --img-opacity: 1;
     --light-button: inline;
     --dark-button: none;
-    --pri-font: 'Proza Libre', sans-serif;
-    --sec-font: 'Proza Libre', serif;
+    --pri-font: 'Proza Libre', 'Georgia', serif;
+    --sec-font: 'Proza Libre', 'Helvetica', sans-serif;
     --timeline-top-pos: 0.5em;
     --timeline-line-off: 0.25em;
     --timeline-bubble-dim: 0.5em;
-    --timeline-lmargin-fat: 4em;
+    --timeline-lmargin-fat: 3em;
     --timeline-lmargin-thin: 1em;
 }
 */
@@ -42,8 +42,8 @@
     --img-opacity: 1;
     --light-button: inline;
     --dark-button: none;
-    --pri-font: 'Proza Libre', serif;
-    --sec-font: 'Proza Libre', serif;
+    --pri-font: 'Proza Libre', 'Georgia', serif;
+    --sec-font: 'Proza Libre', 'Helvetica', sans-serif;
     --timeline-top-pos: 0.5em;
     --timeline-line-off: 0.25em;
     --timeline-bubble-dim: 0.5em;
@@ -352,20 +352,20 @@ a:active {
 .pubs li .awards {
     color: var(--sec-accent);
     font-weight: 700;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
-.pubs li .media {
+.pubs li .addtl {
     color: var(--sec-accent);
     font-size: 1em;
-    margin: 3px 0;
+    margin: 6px 0 2px;
 }
 
-.pubs li .media span:first-child {
+.pubs li .addtl span:first-child {
     margin-left: 0.1em;
 }
 
-.pubs li .media span:not(:first-child) {
+.pubs li .addtl span:not(:first-child) {
     border-left: 0.5px dashed var(--pri-accent);
     margin-left: 0.75em;
     padding-left: 0.75em;
