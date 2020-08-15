@@ -202,6 +202,11 @@ a:active {
     }
 }
 
+.norm {
+    font-family: var(--pri-font);
+    font-weight: 400;
+}
+
 .more {
     margin-left: var(--timeline-lmargin-fat);
 }
@@ -304,7 +309,7 @@ a:active {
     font-size: 1em;
 }
 
-.pubs li .title {
+.title {
     color: var(--pri-accent);
     font-weight: 700;
     font-size: 1em;
@@ -319,46 +324,47 @@ a:active {
     /* border-bottom: 1px solid var(--links-hover); */
 }
 
-.pubs li .typeinfo {
+.typeinfo {
     color: var(--gray);
 }
 
-.pubs li .authors {
+.authors {
     color: var(--gray);
     font-weight: 400;
+    font-size: 0.8em;
 }
 
-.pubs li .venue {
+.venue {
     font-style: italic;
 }
 
-.pubs li .year {
+.year {
     font-weight: 400;
     color: var(--ter-accent);
 }
 
-.pubs li .url {
+.url {
     font-size: 1.25em;
 }
 
-.pubs li .awards {
-    color: var(--sec-accent);
-    font-weight: 700;
-    font-size: 0.8em;
-    margin-left: 0.1em;
-}
-
-.pubs li .addtl {
+.addtl {
     color: var(--sec-accent);
     font-size: 1em;
     margin: 6px 0 2px;
 }
 
-.pubs li .addtl span:first-child {
+.awards {
+    color: var(--sec-accent);
+    font-family: var(--pri-font);
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.addtl span:first-child {
     margin-left: 0.1em;
 }
 
-.pubs li .addtl span:not(:first-child) {
+.addtl span:not(:first-child) {
     border-left: 0.5px dashed var(--ter-accent);
     margin-left: 0.75em;
     padding-left: 0.75em;
