@@ -207,6 +207,14 @@ a:active {
     font-weight: 400;
 }
 
+.bold {
+    font-weight: 700;
+}
+
+.lpad {
+    margin-left: 0.2em;
+}
+
 .more {
     margin-left: var(--timeline-lmargin-fat);
 }
@@ -358,6 +366,7 @@ a:active {
     font-family: var(--pri-font);
     font-weight: 700;
     font-size: 0.8em;
+    margin-left: 0.1em;
 }
 
 .addtl span:first-child {
