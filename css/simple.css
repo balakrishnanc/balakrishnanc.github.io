@@ -355,7 +355,7 @@ a:active {
 }
 
 .pubs li .addtl span:first-child {
-    margin-left: 0.1em;
+    margin-left: 0em;
 }
 
 .pubs li .addtl span:not(:first-child) {
