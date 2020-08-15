@@ -301,7 +301,7 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .pubs li .title {
@@ -321,12 +321,10 @@ a:active {
 
 .pubs li .typeinfo {
     color: var(--gray);
-    font-size: 0.8em;
 }
 
 .pubs li .authors {
     color: var(--gray);
-    font-size: 0.85em;
     font-weight: 400;
 }
 
@@ -336,17 +334,11 @@ a:active {
 
 .pubs li .year {
     font-weight: 400;
-    font-size: 0.8em;
     color: var(--ter-accent);
 }
 
 .pubs li .url {
     font-size: 1.25em;
-}
-
-.pubs li .norm {
-    color: var(--body-text);
-    font-size: 0.9em;
 }
 
 .pubs li .awards {
