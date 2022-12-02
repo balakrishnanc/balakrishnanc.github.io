@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /css
 Disallow: /files
 Disallow: /fonts
-Disallow: /.well-known
+Disallow: /projects
 Disallow: /webfonts
+Disallow: /.well-known
